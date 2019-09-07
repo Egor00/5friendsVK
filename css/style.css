@@ -1,0 +1,61 @@
+#loginBut{
+    position   : absolute;
+    top		   : 40%;
+	left       : 50%;
+	margin-top : -20px;
+	margin-left: -71px;
+}
+#logoutBut{
+    position   : absolute;
+    left       : 100%;
+    margin-top : 5px;
+    margin-left: -72px;
+}
+#main{
+    position      : absolute;
+	top	          : 10%;
+	left          : 10%;
+	/*border        : 2px solid #a8d8ff;*/
+	border-radius : 20px;
+	background    : #fdfdfd;
+	display       : flex;
+    flex-direction: column;
+}
+#greetField{
+    border-radius      : 20px 20px 0 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #dbefff;
+    background         : #f6f6f6;
+}
+#greeting{
+    margin: 0 30px;
+}
+#label{
+    margin: 0 30px;
+    height : 50px;
+}
+.image{
+    border-radius: 22px;
+    height       : 44px;
+    width        : 44px;
+}
+a{
+    color: #0000cc;
+}
+a:visited {
+    color: #751a8b; 
+}
+a:active {
+    color: #dd0052; 
+}
+table{
+    border-collapse: separate;
+    border-spacing:  30px;
+}
+pre{
+    font-family:arial
+}
+body{
+    background: #ededed
+}
